@@ -1,12 +1,8 @@
-<<<<<<< HEAD
-# phoenix_calendar
-Flutter 企业级组件: calendar
-=======
 <!--
  * @Author: lipeng 1162423147@qq.com
  * @Date: 2023-09-23 18:37:25
  * @LastEditors: lipeng 1162423147@qq.com
- * @LastEditTime: 2023-09-23 18:43:02
+ * @LastEditTime: 2023-09-23 18:50:32
  * @FilePath: /phoenix_calendar/README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -44,4 +40,3 @@ const like = 'sample';
 ## Additional information
 
 phoenix 将做为企业级基础组件:Calender,提供项目支持。
->>>>>>> afe884c ([new] 新建)

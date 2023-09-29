@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:phoenix_base/phoenix.dart';
 
+import 'extension/calender_assets.dart';
+
 ///单选日期回调函数
 typedef CalendarDateChange = Function(DateTime date);
 
@@ -214,10 +216,13 @@ class _CustomCalendarViewState extends State<CalendarView> {
                 padding: const EdgeInsets.only(left: 15),
                 alignment: Alignment.center,
                 child: isPreIconEnable
-                    ? PhoenixTools.getAssetImage(BaseAsset.iconCalendarPreMonth)
+                    ? PhoenixTools.getAssetImage(
+                        CalenderAssets.iconCalendarPreMonth,
+                        package: 'phoenix_calendar')
                     : PhoenixTools.getAssetImageWithColor(
-                        BaseAsset.iconCalendarPreMonth,
-                        const Color(0xFFCCCCCC)),
+                        CalenderAssets.iconCalendarPreMonth,
+                        const Color(0xFFCCCCCC),
+                        package: 'phoenix_calendar'),
               ),
             ),
             Expanded(
@@ -259,9 +264,9 @@ class _CustomCalendarViewState extends State<CalendarView> {
                 alignment: Alignment.center,
                 child: isNextIconEnable
                     ? PhoenixTools.getAssetImage(
-                        BaseAsset.iconCalendarNextMonth)
+                        CalenderAssets.iconCalendarNextMonth)
                     : PhoenixTools.getAssetImageWithColor(
-                        BaseAsset.iconCalendarNextMonth,
+                        CalenderAssets.iconCalendarNextMonth,
                         const Color(0xFFCCCCCC)),
               ),
             )
