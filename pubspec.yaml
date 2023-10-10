@@ -2,7 +2,7 @@ name: phoenix_calendar
 description: phoenix 将做为企业级基础组件:Calender,提供项目支持。
 version: 1.0.4
 homepage: 'https://github.com/vsguji/phoenix_calendar.git'
-publish_to: 'https://github.com/vsguji/phoenix_calendar.git'
+
 environment:
   sdk: '>=3.1.2 <4.0.0'
   flutter: ">=1.17.0"
