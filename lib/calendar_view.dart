@@ -264,10 +264,12 @@ class _CustomCalendarViewState extends State<CalendarView> {
                 alignment: Alignment.center,
                 child: isNextIconEnable
                     ? PhoenixTools.getAssetImage(
-                        CalenderAssets.iconCalendarNextMonth)
+                        CalenderAssets.iconCalendarNextMonth,
+                        package: 'phoenix_calendar')
                     : PhoenixTools.getAssetImageWithColor(
                         CalenderAssets.iconCalendarNextMonth,
-                        const Color(0xFFCCCCCC)),
+                        const Color(0xFFCCCCCC),
+                        package: 'phoenix_calendar'),
               ),
             )
           ],
